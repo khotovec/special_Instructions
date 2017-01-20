@@ -8,12 +8,20 @@
     <h1>Hello World!</h1>
     <h4>a brand new sandbox for me</h4>
     <div id="mainBody">
-        This is a script to replace the "Special Instructions" section of a template with a dropdown for cost center identification and<br>a box that is still present for any other special instructions which need to be typed in.
+        This is a script to replace the "Special Instructions" section of a template with a dropdown for cost center identification and a box that is still present for any other special instructions which need to be typed in.
     </div>
     <!-- This is the main wrapper attached to a ul for the special instructions section -->
     <div id="ctl00_cphMainContent_ctl11_Duc20635_ducWrapper">
         <!-- Text and respective Text Input box here -->
-        <p id="ctl00_cphMainContent_ctl11_Duc20635_LblDial">Special Instructions: <input type="text" id="ctl00_cphMainContent_ctl11_Duc20635_ducTextBox"></p>
+        <p id="ctl00_cphMainContent_ctl11_Duc20635_LblDial">Special Instructions:
+            <dd id="ctl00_cphMainContent_ctl11_Duc20635_ducTextBox">
+                <textarea id="ctl00_cphMainContent_ctl11_Duc20635_StringLongTextBox" rows="7" cols="33" class="formField">
+                </textarea>
+            </dd>
+        </p>
+    </div>
+    <div>
+        <button type="button" id="ctl00_cphMainContentFooter_WizardStepsNextPrev1_ButtonFinish" class="btn">Add to Cart</button>
     </div>
 </body>
 </html>
